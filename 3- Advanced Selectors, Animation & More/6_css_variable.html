@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Css-variables</title>
+  <style>
+    :root {
+      --max-width: 960px;
+      --primary-color: #333;
+      --secondary-color: crimson;
+      --light-color: #f4f4f4;
+      --bordrbottom-color: teal;
+      --box-1-width-flex: 4;
+      --box-2-width-flex: 1;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      background: var(--primary-color);
+      color: white
+    }
+
+    header {
+      background-color: var(--secondary-color);
+      border-bottom: 5px solid var(--bordrbottom-color);
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      margin: auto;
+      max-width: var(--max-width);
+    }
+
+    .box {
+      background-color: var(--secondary-color);
+      border-bottom: 5px solid var(--bordrbottom-color);
+      padding: 1rem;
+      margin: 1rem;
+      color: #fff;
+    }
+
+    .box-1 {
+      flex: var(--box-1-width-flex);
+    }
+
+    .box-2 {
+      flex: var(--box-2-width-flex);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1> Css Variable-Heading</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="box box-1">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, culpa.</p>
+    </div>
+
+    <div class="box box-2">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, culpa.</p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

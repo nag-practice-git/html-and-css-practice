@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Css Postioning</title>
+  <style>
+    body {
+      height: 5000px;
+    }
+
+    .box {
+      height: 100px;
+      width: 100px;
+    }
+
+    .container {
+      position: relative;
+      background: #333;
+      width: 500px;
+      height: 500px;
+    }
+
+    #box-1 {
+      position: relative;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+      background: red;
+    }
+
+    #box-2 {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      background: blue;
+    }
+
+    #box-3 {
+      position: absolute;
+      bottom: 100px;
+      right: 100px;
+      background: yellow;
+    }
+
+    #box-4 {
+      position: fixed;
+      background: green;
+    }
+
+    #box-5 {
+      position: sticky;
+      top: 0;
+      z-index: -1;
+      background: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box-1" class="box"></div>
+  <div class="container">
+    <div id="box-2" class="box"></div>
+    <div id="box-3" class="box"></div>
+  </div>
+  <div id="box-4" class="box"></div>
+  <div id="box-5" class="box"></div>
+</body>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusantium ad obcaecati similique veritatis tenetur,
+  deserunt eius magni maxime distinctio autem minima ullam sed placeat sapiente et culpa dolore? Facilis in, dolores
+  debitis iste ducimus libero corrupti nemo eum.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugiat, dolore voluptas debitis unde quidem laborum
+  eveniet deleniti odit quos reiciendis expedita cupiditate iste, rem perferendis ratione repudiandae illo. Minus
+  maiores dolorem nobis perspiciatis adipisci iure consequuntur, ad eaque!</p>
+<div class="contain">
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quidem, dignissimos perspiciatis non tempora eligendi,
+    beatae repudiandae expedita voluptatem facilis ratione officia. Eius reprehenderit iste in error, consequatur alias
+    fugit!
+  </p>
+</body>
+
+</html>
+
+</html>

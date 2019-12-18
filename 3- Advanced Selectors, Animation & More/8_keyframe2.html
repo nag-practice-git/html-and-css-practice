@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>keyframe2</title>
+  <style>
+    body {
+      background-color: #444;
+    }
+
+    .box {
+      background-color: #fff;
+      height: 200px;
+      width: 200px;
+      position: relative;
+      top: 0;
+      left: 0;
+      animation: animate-1 5s ease-in-out forwards;
+    }
+
+    @keyframes animate-1 {
+      25% {
+        top: 0;
+        left: 300px;
+        background-color: crimson;
+        border-radius: 50% 0 0 0;
+      }
+
+      50% {
+        top: 300px;
+        left: 300px;
+        background-color: teal;
+        border-radius: 50% 220% 0% 290%;
+
+      }
+
+      75% {
+        top: 300px;
+        left: 0;
+        background-color: coral;
+        border-radius: 50% 20% 0% 19%;
+
+      }
+
+      100% {
+        top: 0;
+        left: 0;
+        background-color: rgba(62, 238, 62, 0.781);
+        border-radius: 20% 68% 50% 5%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+</body>
+
+</html>

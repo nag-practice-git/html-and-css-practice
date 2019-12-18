@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Box-shadow</title>
+  <style>
+    .container {
+      display: flex;
+      box-shadow: -3px -3px 14px rgb(187, 20, 220),3px 3px 10px rgb(187, 20, 220);
+      margin-top: 2rem;
+      border-radius: 10px;
+    }
+
+    .box {
+      background: teal;
+      color: #fff;
+      padding: 1rem;
+      margin: 2rem;
+      border-radius: 15px;
+
+      /* offset-x ,offset-y,color */
+      box-shadow: 10px 10px crimson;
+
+      /* offset-x ,offset-y, blur  ,color */
+      box-shadow: 6px 6px 10px crimson;
+
+      /*  Negative 
+      offset-x ,offset-y, blur  ,color */
+      box-shadow: -6px -6px 20px crimson;
+
+      /*  offset-x ,offset-y, blur ,Spread-radius ,color */
+      box-shadow: -6px 6px 7px 5px  coral;
+
+      /* inset ,offset-x, offset-y,color */
+      box-shadow: inset 10px 16px 2px rgb(233, 146, 32);
+
+      /* Multiple shadows */
+      box-shadow: 5px 5px 10px 2px rgb(0, 128, 38), -5px -5px 10px 3px rgba(214, 60, 60, 0.959);
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="box">
+      <h3>Hello Nag</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, esse.</p>
+    </div>
+
+    <div class="box">
+      <h3>Hello Nag</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, esse.</p>
+    </div>
+
+    <div class="box">
+      <h3>Hello Nag</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, esse.</p>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+google chrome extension for theme === movement
+tips of vscode:-
+---------------------
+ctrl+/---------->for creating comments and undo comments also
+ctlr+Enter --> for coming into new line
+
+<p>lorem</p>-->we have to type (lorem )for dummt text
+<p>lorem100</p>-->we have to type (lorem 100)for dummt text of 500words
+
+hr and press tab ----> for horizontal rule(means a horizontal line will be placed)
+alt---------->for moving particular line up and down
+
+shift+alt+down------------->for duplicate line
+ctrl+alt +up or down ------------------->for increasing the size of arrow(press anywhere with mouse to release from that)
+
+div#main-nav----------->(emmet extension by defalut available in vscode)------> it gives the <div id =main-nav> or simply #main-nav is sufficient
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+member 
+member
+member -----> press ctrl+D for selecting same word and again press ctrl+d next item
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+source.unsplash (Web site) ----for images

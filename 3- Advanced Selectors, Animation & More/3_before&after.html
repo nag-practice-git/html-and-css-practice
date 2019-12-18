@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Before and After</title>
+  <style>
+    /* .is-Required::after {
+      content: '*';
+      color: rgb(255, 11, 11);
+      padding-left: 2px;
+    } */
+
+    body {
+      background: #333;
+      /* background: #444; */
+      color: #fff;
+      margin: 0;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+    }
+
+    header::before {
+      content: '';
+      background: url('https://source.unsplash.com/WLUHO9A_xik/1600x900') no-repeat center center/cover;
+      position: absolute;
+      opacity: 0.3;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: -1;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <label for="name" class="is-Required">Name</label>
+  <input type="text"> -->
+  <header>
+    <h1>Hello Nag</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, asperiores!</p>
+  </header>
+
+  <section>
+    <h3>Hello buddies</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque similique nostrum reiciendis minus omnis
+      sed dicta delectus, illum veritatis reprehenderit incidunt laboriosam iure rerum non atque mollitia consequuntur
+      odit.</p>
+  </section>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

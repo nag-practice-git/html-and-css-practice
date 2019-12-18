@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex Align</title>
+  <style>
+    #container {
+      background: #555;
+      display: flex;
+      flex-wrap: wrap;
+      height: 400px;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+
+    .item {
+      background: #f4f4f4;
+      border: 1px solid #ccc;
+      text-align: center;
+      margin: 0.5rem;
+      padding: 0.3rem;
+      flex-basis: 180px;
+    }
+
+
+    .item-1 {
+      order: 3;
+    }
+
+    .item-2 {
+      align-self: flex-end;
+      order: 2;
+    }
+
+    .item-3 {
+      order: 1;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="item item-1">
+      <h3>Item 1--Nag</h3>
+    </div>
+    <div class="item item-2">
+      <h3>Item 2--Endra</h3>
+    </div>
+    <div class="item item-3">
+      <h3>Item 3--gym</h3>
+    </div>
+  </div>
+</body>
+
+</html>

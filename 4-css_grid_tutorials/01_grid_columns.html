@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid-Columns</title>
+  <style>
+    .grid {
+      display: grid;
+      /* grid-template-columns: auto 200px 200px; */
+      /* grid-template-columns: 200px auto auto; */
+      /* grid-template-columns: repeat(3, auto); */
+      grid-template-columns: 1fr 2fr 2fr;
+      gap: 1rem;
+    }
+
+    .items {
+      padding: 3rem;
+      color: white;
+      background: teal;
+      border: 1px solid #f4f4f4;
+      /* margin: 1rem; */
+      font-size: 1.3rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: 1rem 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid">
+
+    <div class="items">Item 1</div>
+    <div class="items">Item 2</div>
+    <div class="items">Item 3</div>
+    <div class="items">Item 4</div>
+    <div class="items">Item 5</div>
+    <div class="items">Item 6</div>
+
+  </div>
+
+  <main>
+    <section>
+      <h3>Hello nag</h3>
+      <p>Lorem ipsum dolor siture, eaque, repudiandae ipsum exercitationem dolorum delectus ipsa laborum, quasi
+        molestiae. Quibusdam iure, eaque, repudiandae ipsum exercitationem dolorum delectus ipsa laborum, quasi
+        cupiditate doloremque reiciendis!</p>
+    </section>
+
+    <aside>
+      <h3>Hi nag</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quibusdam labore ipsam ab error laboriosam hic
+        quo cum tempora eos?</p>
+    </aside>
+    
+    <section>
+      <h3>Hello nag</h3>
+      <p>Lorem ipsum dolor siture, eaque, repudiandae ipsum exercitationem dolorum delectus ipsa laborum, quasi
+        molestiae. Quibusdam iure, eaque, repudiandae ipsum exercitationem dolorum delectus ipsa laborum, quasi
+        cupiditate doloremque reiciendis!</p>
+    </section>
+
+    <aside>
+      <h3>Hi nag</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quibusdam labore ipsam ab error laboriosam hic
+        quo cum tempora eos?</p>
+    </aside>
+
+  </main>
+
+</body>
+
+</html>

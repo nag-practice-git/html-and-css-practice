@@ -1,0 +1,57 @@
+css tips and tricks from Brad
+--------------------------------------
+#Primay-heading{
+}------------------> for ( id ) attribute
+
+.Primay-heading{
+}---------------------->for ( class ) attribute
+
+-----------------------------------------------------------------------------------------------------------
+#box-1.box -------------->   <div id="box-1" class="box">
+										</div>
+										
+-----------------------------------------------------------------------------------------------------------
+		sky blue nice #49c1a2;
+-----------------------------------------------------------------------------------------------------------
+class has highest precedence
+++++++++++++ output:===red color
+<style>
+ .hello {
+      color: red;
+    }
+
+    h1 {
+      /* display: none; */
+      /* visibility: hidden; */
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="hello">Heading</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad aliquam quae, beatae cupiditate quod iste error quas
+    tenetur totam dolorum?</p>
+</body>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---(new tip if we want to override the css frame work property or any user {---!important--}------  .hello {
+      color: red;
+    }
+
+    h1 {
+      /* display: none; */
+      /* visibility: hidden; */
+      color: blue !important;
+    }
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62.5%=====10px 
+
+ line-height=1.5rem==============15px
+	
+	
+	
+	
+	
+	
